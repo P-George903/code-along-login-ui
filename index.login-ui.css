@@ -1,0 +1,91 @@
+html,
+body{
+    font-family: 'Raleway';
+}
+
+    
+/* can put in col or container-fluid */
+.col { 
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7y1-PbOByO7qXcfGFfRY2ijaXpl_wILcNHA&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;  
+}
+
+
+#wrapper {
+background-color: rgba(30,30,30, 0.8);
+padding: 21px;
+text-transform: uppercase;
+width: 400px;
+}
+
+h3 {
+    color:  #39a399;
+    letter-spacing: 1.5;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.input-group{
+    width:100%;
+}
+
+input,
+.icon-wrapper{
+    height: 44px;
+}
+
+.icon-wrapper{
+    align-items: center;
+    background-color: #555;
+    display:flex;
+    justify-content: center;
+    width: 44px;
+
+}
+.icon-wrapper i {
+    color: #ccc;
+    font-size:22px;
+}
+
+input{
+    background-color: rgba(51,51,51,0.9);
+    border: none;
+    color: #ccc;
+    margin-bottom:15px;
+    padding: 9px;
+    width: calc(100% - 44px);
+}
+input::placeholder{
+color:#aaa;
+}
+button{
+    border:none;
+    display: block;
+    letter-spacing: 1.5;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding:9px;
+    text-transform: uppercase;
+    width: 90%;
+
+}
+
+#forgot-password {
+   color:  #ccc;
+   text-align: center; 
+   text-transform: capitalize; 
+}
+#forgot-password span {
+    text-decoration: underline;
+}
+hr{
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+#register-button {
+
+    background-color: #39a399;
+}
